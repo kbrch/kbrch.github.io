@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-port:  5000
-encoding: utf-8
-=======
+# <<<<<<< HEAD
+# # port:  5000
+# encoding: utf-8
+# =======
 #
 # This file contains configuration flags to customize your site
 #
@@ -88,4 +88,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
->>>>>>> 8b0af42b48b5bacc5fd504ba0bed8aa897635d2c
+# >>>>>>> 8b0af42b48b5bacc5fd504ba0bed8aa897635d2c
