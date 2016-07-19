@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 ---
 This is a test for Tuesday.
 
