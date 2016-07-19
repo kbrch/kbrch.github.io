@@ -7,7 +7,7 @@ published: true
 
 Some information about you!
 
-![]({{site.baseurl}}//sj.jpg)
+![]({{site.baseurl}}/images/sj.jpg)
 
 ### More Information
 
