@@ -20,16 +20,16 @@ avatar:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
+  dribbble: a
+  email: a
+  facebook: a
+  flickr: a
   github: kbrch/
-  instagram:
-  linkedin:
-  pinterest:
+  instagram: a
+  linkedin: a
+  pinterest: a
   rss: # just type anything here for a working RSS icon
-  twitter:
+  twitter: a
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
