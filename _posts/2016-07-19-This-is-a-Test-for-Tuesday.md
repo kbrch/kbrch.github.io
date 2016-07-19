@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 This is a test for Tuesday.
 
@@ -8,7 +8,3 @@ This is a test for Tuesday.
 _This is italic_
 
 > This is a blockquote
-
-
-
-
