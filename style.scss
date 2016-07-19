@@ -320,6 +320,13 @@ $color: tomato;
   overflow: hidden;
   background-color: $color;
   
+  &-sm {
+  	padding: 25px;
+    
+    h1 { font-size: 40px; }
+    h2 { font-size: 20px; }
+  }
+  
   h1, h2 {
     line-height: 1;
     margin: 0;
@@ -336,3 +343,5 @@ $color: tomato;
     @include longshadow(darken($color, 8% ));
   }
 }
+
+
