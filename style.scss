@@ -320,7 +320,7 @@ $color: tomato;
   overflow: hidden;
   background-color: $color;
   
-  &-sm {
+  & .banner-sm {
   	padding: 25px;
     
     h1 { font-size: 40px; }
@@ -343,5 +343,3 @@ $color: tomato;
     @include longshadow(darken($color, 8% ));
   }
 }
-
-
