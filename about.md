@@ -2,9 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
 Some information about you!
+
+![]({{site.baseurl}}//sj.jpg)
 
 ### More Information
 
