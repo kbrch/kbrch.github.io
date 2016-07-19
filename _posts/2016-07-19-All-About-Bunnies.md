@@ -2,7 +2,7 @@
 published: true
 layout: post
 ---
-# I'm learning to use Mou and Markdown
+## I'm learning to use Mou and Markdown
 
 This is the content I'm writing. I can even place an image in my content:
 
