@@ -71,11 +71,13 @@ p {
 a {
   color: $color-primary;
   text-decoration: none;
-  cursor: pointer;
+  cursor: pointer;  
   &:hover, &:active {
-    color: darken($color-primary, 10%);
+    color: darken($color-primary, 50%);
   }
 }
+
+
 
 ul, ol {
   margin: 15px 0;
@@ -88,6 +90,8 @@ ul {
 
 ol {
   list-style-type: decimal;
+  
+
 }
 
 ol ul, ul ol, ul ul, ol ol {
