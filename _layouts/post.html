@@ -11,7 +11,7 @@ published: true
   </div>
 
   <div class="date">
-    Written on {{ page.date }}
+    Written on {{ page.date | date: "%-d %B %Y" }}
   </div>
 
   {% include disqus.html %}
