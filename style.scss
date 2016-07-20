@@ -339,7 +339,7 @@ $color: tomato;
   
   h1 {
     font-size: 75px;
-    @include longshadow(darken($color, 50% ));
+    @include longshadow(darken($color, 30% ));
   }
   
   h2 {
