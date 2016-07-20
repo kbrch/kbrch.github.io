@@ -1,6 +1,6 @@
 ---
 published: true
-layout: post
+layout: page
 ---
 I'm learning to use Mou and Markdown
 
