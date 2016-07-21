@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<style>
+	.half {
+		width: 50%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.half-left {
+		background: tomato;
+		padding: 20px;
+	}
+
+	.half-left .date {
+		color: #fff;
+	}
+
+	.half-left h1 {
+		margin: 0;
+		line-height: 1.2;
+		color: #fff;
+	}
+
+	.half-right {
+		padding: 20px;
+	}
+
+	.half-right p:first-child {
+		margin-top: 0;
+	}
+
+	.example {
+		color: #aaa;
+		text-align: center;
+		font-style: italic;
+	}
+</style>
+
+<article class="post">
+	<div class="half half-left">
+		<h1>{{ page.title }}</h1>
+	  <div class="date">
+	    Written on {{ page.date | date: "%B %e, %Y" }}
+	  </div>
+	</div>
+	<div class="half half-right">
+	  <div class="entry">
+	    {{ content }}
+	  </div>
+	</div>
+	<p class="example">This is the example post type</p>
+
+  {% include disqus.html %}
+</article>
