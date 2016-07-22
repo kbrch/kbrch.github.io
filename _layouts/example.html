@@ -10,9 +10,13 @@ published: true
 	  </div>
       {% if page.mood %}
       <p>Current mood:</p>
-      <div class="mood">
-        {{ page.mood }}
-      </div>
+      	{% if page.mood == "happy" %}
+      		:)
+      	{% elsif page.mood == "sad" %}
+      		:(
+      	{% else %}
+      		:$
+      	{% endif %}
       {% endif %}
 	</div>
 	<div class="half half-right">
