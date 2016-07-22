@@ -2,6 +2,7 @@
 published: true
 layout: example
 mood: happy
+animal: bunny
 ---
 ## A New Post
 
