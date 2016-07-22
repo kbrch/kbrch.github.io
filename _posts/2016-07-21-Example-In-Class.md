@@ -1,7 +1,7 @@
 ---
 published: true
 layout: example
-mood: thoughtful
+mood: null
 ---
 ## A New Post
 
