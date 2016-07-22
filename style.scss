@@ -347,3 +347,5 @@ $color: #A6D785;
     @include longshadow(darken($color, 30% ));
   }
 }
+
+@import "example";
