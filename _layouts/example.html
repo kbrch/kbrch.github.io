@@ -8,8 +8,7 @@ published: true
 	  <div class="date">
 	    Written on {{ page.date | date: "%B %e, %Y" }}
 	  </div>
-      {% if page.mood %}
-      <p>Current mood:</p>
+      {% if page.animal %}
       	{% if page.animal == "bunny" %}
       <p>Bunny Quick Facts:</p>
       <ul>
@@ -17,7 +16,7 @@ published: true
         <li>Have Teeth</li>
         <li>Like Carrots</li>
       </ul>
-      	{% elsif page.mood == "deer" %}
+      	{% elsif page.animal == "deer" %}
       		<p>Deer Quick Facts:</p>
             <ul>
               <li>Brown</li>
