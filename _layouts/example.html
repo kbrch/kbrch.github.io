@@ -10,12 +10,22 @@ published: true
 	  </div>
       {% if page.mood %}
       <p>Current mood:</p>
-      	{% if page.mood == "happy" %}
-      		<img src="http://rs37.pbsrc.com/albums/e84/Nannascraps/Animated%20Gif%20images/smiling_face.gif~c200"/>
-      	{% elsif page.mood == "sad" %}
-      		<img src="http://gifsec.com/wp-content/uploads/GIF/2014/05/sad-crying-gif.gif?gs=a/>
+      	{% if page.animal == "bunny" %}
+      <p>Bunny Quick Facts:</p>
+      <ul>
+        <li>Furry</li>
+        <li>Have Teeth</li>
+        <li>Like Carrots</li>
+      </ul>
+      	{% elsif page.mood == "deer" %}
+      		<p>Deer Quick Facts:</p>
+            <ul>
+              <li>Brown</li>
+              <li>Jump Hight</li>
+              <li>Eat Grass</li>
+            </ul>
       	{% else %}
-      		:$
+      <p>I don't know anything about this animal, sorry.</p>
       	{% endif %}
       {% endif %}
 	</div>
