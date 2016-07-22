@@ -8,9 +8,12 @@ published: true
 	  <div class="date">
 	    Written on {{ page.date | date: "%B %e, %Y" }}
 	  </div>
+      {% if page.mood %}
+      <p>Current mood:</p>
       <div class="mood">
         {{ page.mood }}
       </div>
+      {% endif %}
 	</div>
 	<div class="half half-right">
 	  <div class="entry">
