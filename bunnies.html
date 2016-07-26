@@ -4,5 +4,7 @@ published: true
 ---
 
 {% for post in site.posts %}
-<h2>OK</h2>
+	{% if post.animal == "bunny" %}
+		<h2>OK</h2>
+	{% endif %}
 {% endfor %}
