@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+animal: bunny
 ---
 This is a test for Tuesday.
 
