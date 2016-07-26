@@ -1,6 +1,6 @@
 ---
 published: true
-layout: post
+layout: example
 animal: bunny
 ---
 This is a test for Tuesday.
