@@ -3,6 +3,7 @@ published: true
 layout: example
 mood: happy
 animal: bunny
+tags: this
 ---
 ## A New Post
 
