@@ -1,3 +1,8 @@
+---
+layout: default
+published: true
+---
+
 {% for post in site.posts %}
     <article class="post">
 	<div class="banner banner-sm">
