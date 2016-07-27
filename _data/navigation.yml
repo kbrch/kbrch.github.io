@@ -1,15 +1,6 @@
 main:
   - title: "Bunniez"
     url: /bunnies-2
-    
-  - title: "Squirrelz"
-    url: #
-  
-  - title: "Deer"
-    url: #
-    
-  - title: "Woodchuckz"
-    url: #
-    
+
   - title: "About"
     url: #
