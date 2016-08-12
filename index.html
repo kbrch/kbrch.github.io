@@ -1,32 +1,15 @@
----
-layout: default
-published: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>###SPACEBUTTER###</title>
+  <style>
+    body { background: #000; }
+  </style>
+</head>
+<body>
 
-<div class="banner">
-  <h1>Welcome to the woods.</h1>
-  <h2>Check out the critters.</h2>
-</div>
-<br/>
-<hr>
-<br/>
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-	<div class="banner banner-sm">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    {{ post.animal }}
-      </div>
-
-     <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-  
-  {% for post in site.posts %}
-  <h2>{{ post.title }}</h2>
-  {% endfor %}
-</div>
+</body>
+</html>
